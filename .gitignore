@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+
+# 環境変数（APIキーを含むため必ず無視する）
+.env
+.env.local
+server/.env
+client/.env
+
+*.log
+.DS_Store
